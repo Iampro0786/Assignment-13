@@ -10,6 +10,9 @@ section{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
+div{
+    padding: 20px;
+}
 .box1{
     background-color: blue;
     color: white;
@@ -44,4 +47,5 @@ section{
 .box8{
     color: white;
     background-color: darkgreen;
+
 }
