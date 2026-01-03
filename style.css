@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.box1{
+    background-color: blue;
+    color: white;
+    grid-area: 1 /1 /4 / 1;
+}
+.box2{
+    background-color: chartreuse;
+    color: white;
+    grid-area: 2 /2 /1 / 4;
+}
+.box3{
+    background-color: brown;
+    color: white;
+}
+.box4{
+    color: white;
+    background-color: aqua;
+}
+.box5{
+    color: white;
+    background-color: red;
+}
+.box6{
+    color: white;
+    background-color: darkgray;
+    grid-area: 2/ 4/ 4/ 4;
+}
+.box7{
+    color: white;
+    background-color: darkmagenta;
+}
+.box8{
+    color: white;
+    background-color: darkgreen;
+}
